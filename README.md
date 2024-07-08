@@ -1,5 +1,3 @@
-# QT-UDPCommunication
-
 # UDP Communication Projects
 
 ## Overview
@@ -63,27 +61,32 @@ These two projects demonstrate a simple UDP communication setup using the Qt fra
 
 ---
 
-# Running the Project
+## Running the Project
 
-To run the project, follow these steps:
+### Using the Application Directly
 
-1. **Clone the repository from GitHub**:
-   - Open a terminal or command prompt.
-   - Execute the following command to clone the repository:
+If you only want to use the application without making any modifications, follow these steps:
 
-     ```bash
-     git clone https://github.com/sivasai-yarlagadda/QT-UDPCommunication.git
+1. **Check the `build` Folder**:
+   - Ensure that the `build` folder exists in the cloned repository.
+
+2. **Execute the Sender Application**:
+   - Navigate to the following path in the terminal or file explorer for the Sender application:
+
+     ```plaintext
+     UDPSender/build-UDPsender-Desktop_Qt_6_5_3_MinGW_64_bit-Debug/debug/UDPsender.exe
      ```
 
-2. **Open the project in Qt Creator**:
-   - Launch Qt Creator.
-   - Click on **File > Open File or Project**.
-   - Navigate to the directory where you cloned the repository and select the project file (`*.pro`).
+   - Double-click `SenderApp.exe` to launch the sender application.
 
-3. **Build and Run the Applications**:
-   - Configure the build settings (e.g., Debug or Release mode).
-   - Set the build target to your desired platform (e.g., Desktop).
-   - Click on the green play button (or press `Ctrl+R`) to build and run each project.
+3. **Execute the Receiver Application**:
+   - Navigate to the following path in the terminal or file explorer for the Receiver application:
+
+     ```plaintext
+     UDPReceiver/build-UDPreceiver-Desktop_Qt_6_5_3_MinGW_64_bit-Debug/debug/UDPreceiver.exe
+     ```
+
+   - Double-click `ReceiverApp.exe` to launch the receiver application.
 
 ---
 
